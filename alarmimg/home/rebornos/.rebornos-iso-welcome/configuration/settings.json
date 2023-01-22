@@ -1,0 +1,17 @@
+{
+    "version": "1",
+    "ui-toolkits": {
+        "available": [
+            "gtk"
+        ],
+        "default": "gtk",
+        "current": "gtk"
+    },
+    "log_directory": "~/.rebornos-iso-welcome/log",
+    "auto_start_enabled": true,
+    "show_install_info": true,
+    "show_update_toggle": true,
+    "show_git_toggle": false,
+    "installer_package_name_stub": "calamares-core",
+    "installer_config_package_name_stub": "calamares-configuration-opi5"
+}

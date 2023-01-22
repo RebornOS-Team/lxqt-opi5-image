@@ -1,0 +1,14 @@
+{
+    "version": "1",
+    "ui-toolkits": {
+        "available": [
+            "gtk"
+        ],
+        "default": "gtk",
+        "current": "gtk"
+    },
+    "log_directory": "/home/rebornos/.rebornos-welcome/log",
+    "auto_start_enabled": false,
+    "current_working_directory": "/opt/rebornos-welcome",
+    "show_install_info": true
+}

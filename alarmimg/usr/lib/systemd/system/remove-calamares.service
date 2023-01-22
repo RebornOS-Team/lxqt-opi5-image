@@ -1,0 +1,10 @@
+[Unit]
+Description=Remove Calamares
+
+[Service]
+Type=oneshot
+ExecStartPre=/bin/pacman -Rncsu --noconfirm calamares-core calamares-configuration-rock5b
+ExecStart=/usr/bin/rm -r /usr/lib/systemd/system/remove-calamares.service
+
+[Install]
+WantedBy=multi-user.target

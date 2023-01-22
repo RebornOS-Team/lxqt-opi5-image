@@ -1,0 +1,16 @@
+root:x:0:root
+sys:x:3:bin,rebornos
+network:x:90:rebornos
+power:x:98:rebornos
+adm:x:999:rebornos
+wheel:x:998:rebornos
+uucp:x:987:rebornos
+optical:x:990:rebornos
+rfkill:x:983:rebornos
+video:x:986:rebornos
+storage:x:988:rebornos
+audio:x:995:rebornos
+users:x:985:rebornos
+nopasswdlogin:x:966:rebornos
+autologin:x:967:rebornos
+rebornos:x:1001:
