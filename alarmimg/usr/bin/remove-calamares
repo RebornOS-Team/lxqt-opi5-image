@@ -1,0 +1,4 @@
+#! /bin/sh
+/bin/pacman -Rncsu --noconfirm calamares-core calamares-configuration-opi5
+/usr/bin/rm -rf /usr/lib/systemd/system/remove-calamares.service
+/usr/bin/rm -rf /usr/bin/remove-calamares

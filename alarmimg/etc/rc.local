@@ -1,0 +1,4 @@
+#! /bin/sh
+
+# Enable USB on OPI 5
+echo host > /sys/kernel/debug/usb/fc000000.usb/mode

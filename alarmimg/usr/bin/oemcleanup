@@ -1,0 +1,6 @@
+#! /bin/sh
+
+/usr/bin/userdel -r -f rebornos
+/usr/bin/rm -rf /home/rebornos || true
+/usr/bin/rm /etc/systemd/system/oemcleanup.service
+/usr/bin/rm /usr/bin/oemcleanup
