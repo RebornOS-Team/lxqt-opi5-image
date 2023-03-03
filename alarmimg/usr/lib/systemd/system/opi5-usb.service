@@ -1,0 +1,10 @@
+[Unit]
+Description=Enable Orange Pi USB
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c "echo host > /sys/kernel/debug/usb/fc000000.usb/mode"
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
